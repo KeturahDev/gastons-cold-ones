@@ -3,6 +3,7 @@ import KegList from "./KegList";
 import KegDetails from "./KegDetails";
 import KegForm from "./KegForm";
 import { Kegs } from "./../../PresetData/GasonsKegs";
+// import "./../../"
 
 class KegController extends React.Component{
   constructor(props){
@@ -78,13 +79,15 @@ class KegController extends React.Component{
     }
   }
 
+  
+
   render(){
     const currentlyVisible = this.setVisiblitiy()
     return(
       <React.Fragment>
-        <div style={{border: "2px solid gray", padding: "2%"}}>
+        <div  className="container">
           {currentlyVisible.component}
-          <button onClick={this.handleClick}>{currentlyVisible.buttonText}</button>
+          <button className="btn btn-block btn-dark" onClick={this.handleClick}>{currentlyVisible.buttonText}</button>
         </div>
       </React.Fragment>
     );

@@ -5,11 +5,10 @@ import Keg from "./Keg";
 function KegList(props){
   return(
     <React.Fragment>
-      <div style={{border: "2px solid blue"}}>
-        List of Kegs here
+      <div className="row" >
         {
           props.list.map(keg => 
-            <Keg 
+            <Keg
             name={keg.name} 
             price={keg.price} 
             pints={keg.pints} 

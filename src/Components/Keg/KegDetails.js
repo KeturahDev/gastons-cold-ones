@@ -5,7 +5,7 @@ function KegDetails(props){
   const { keg } = props
   return(
     <React.Fragment>
-      <div style={{border: "2px solid purple"}}>
+      <div  style={{border: "2px solid purple"}}>
         <h2>{keg.name}</h2>
         <p>{keg.description}</p>
         <p>{keg.band}</p>
