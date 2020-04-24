@@ -5,6 +5,7 @@ function Keg(props){
   const kegStyle={
     backgroundColor: "black",
     color: "rgb(175, 175, 175)",
+    opacity: "1.0",
   }
 
   return(
@@ -23,7 +24,9 @@ function Keg(props){
         </div>
         {// If pints are more than zero
           props.pints > 0 &&
-          <button className="button" onClick={() => props.sellPint(props.id)}>Sell Pint</button>
+          <div className="centerBox">
+            <button className="button" onClick={() => props.sellPint(props.id)}>Sell Pint</button>
+          </div>
         }
         { //if pints are less than 10
           props.pints <=10 && props.pints > 0 &&

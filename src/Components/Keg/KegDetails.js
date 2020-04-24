@@ -3,15 +3,21 @@ import PropTypes from 'prop-types';
 
 function KegDetails(props){
   const { keg } = props
+  const kegStyle={
+    backgroundColor: "black",
+    color: "rgb(175, 175, 175)",
+    borderRadius: "10px",
+    padding: "5%"
+  }
   return(
     <React.Fragment>
-      <div  style={{border: "2px solid purple"}}>
+      <div  style={kegStyle}>
         <h2>{keg.name}</h2>
-        <p>{keg.description}</p>
-        <p>{keg.band}</p>
-        <p>{keg.price}</p>
-        <p>{keg.alcoholContent}</p>
-        <p>{keg.pints}</p>
+        <p>Description: {keg.description}</p>
+        <p>Brand: {keg.brand}</p>
+        <p>Price: {keg.price}</p>
+        <p>Alcohol Content: {keg.alcoholContent}</p>
+        <p>Pints Left: {keg.pints}</p>
       </div>
     </React.Fragment>
   );

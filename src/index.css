@@ -26,15 +26,24 @@ code {
   color: white;
 }
 
-
-.button {
-  background-color: #ff8c8c;
-  border-radius: 12px;
-}
-
 .container {
   padding: 3%;
   border: 2px solid #ff030360;
   border-radius: 10px;
   color: rgb(175, 175, 175)
+  
+}
+.centerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  background-color: #990d0d;
+  color:white;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 3%;
+  /* padding-left: 25%; */
+  /* padding-right: 25%; */
 }
