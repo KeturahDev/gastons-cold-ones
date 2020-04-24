@@ -39,14 +39,10 @@ class KegController extends React.Component{
   }
 
   render(){
-    //conditional for rendering KegList, KegDetails, KegForm
     const currentlyVisible = this.setVisiblitiy()
     return(
       <React.Fragment>
         <div style={{border: "2px solid gray", padding: "2%"}}>
-          {/* <KegList />
-          <KegDetails />
-          <KegForm /> */}
           {currentlyVisible.component}
           <button onClick={this.handleClick}>{currentlyVisible.buttonText}</button>
         </div>
