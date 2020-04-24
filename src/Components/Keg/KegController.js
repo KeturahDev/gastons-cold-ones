@@ -15,9 +15,17 @@ class KegController extends React.Component{
   }
 
   handleClick = () => {
-    this.setState(prevstate => ({
-      formVisible: !prevstate.formVisible
-    }));
+    //checks if click is from details page to reset to initial state
+    if(this.state.selectedKeg !== null) {
+      this.setState({
+        formVisible: false,
+        selectedKeg: null,
+      })
+    } else {
+      this.setState(prevstate => ({
+        formVisible: !prevstate.formVisible
+      }));
+    }
   }
 
   handleAddNewKeg = (newKeg) => {
