@@ -48,7 +48,7 @@ class KegController extends React.Component{
       };
     } else {
       return{
-        component: <KegList list={this.state.kegList}/>,
+        component: <KegList list={this.state.kegList} onSelectingKeg={this.handleChangeingSelectedKeg}/>,
         buttonText: "Add new Keg"
       }
     }
