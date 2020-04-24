@@ -18,6 +18,7 @@ function KegList(props){
             key={keg.id}
             alcCont={keg.alcoholContent}
             showDetails={props.onSelectingKeg}
+            sellPint={props.onSellingPint}
             />
           )
         }
@@ -28,7 +29,8 @@ function KegList(props){
 
 KegList.propTypes = {
   list: PropTypes.arrayOf(PropTypes.object),
-  onSelectingKeg: PropTypes.func
+  onSelectingKeg: PropTypes.func,
+  onPintSold: PropTypes.func
 }
 
 export default KegList;

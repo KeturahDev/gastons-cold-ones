@@ -43,6 +43,18 @@ class KegController extends React.Component{
     })
   }
 
+  handleSellingPint = (id) => {
+    const soldKeg = this.state.kegList.filter(keg => keg.id === id)[0]
+    const newKegsPints = soldKeg.pints -1
+    const newKeg = {...soldKeg, pints: newKegsPints}
+    console.log("pints:", newKeg.pints)
+    const removeOldKeg = this.state.kegList.filter(keg => keg.id !== id)
+    const newKegList = removeOldKeg.concat(newKeg)
+    this.setState({
+      kegList: newKegList
+    })
+  }
+
   setVisiblitiy = () => {
     if(this.state.selectedKeg !== null) {
       return{
@@ -56,7 +68,11 @@ class KegController extends React.Component{
       };
     } else {
       return{
-        component: <KegList list={this.state.kegList} onSelectingKeg={this.handleChangeingSelectedKeg}/>,
+        component: <KegList 
+        list={this.state.kegList} 
+        onSelectingKeg={this.handleChangeingSelectedKeg}
+        onSellingPint={this.handleSellingPint}
+        />,
         buttonText: "Add new Keg"
       }
     }
