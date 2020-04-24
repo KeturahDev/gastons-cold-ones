@@ -28,10 +28,17 @@ class KegController extends React.Component{
     })
   }
 
+  handleChangeingSelectedKeg = (id) => {
+    const selectedKeg = this.state.kegList.filter(keg => keg.id === id)[0]
+    this.setState({
+      selectedKeg: selectedKeg
+    })
+  }
+
   setVisiblitiy = () => {
     if(this.state.selectedKeg !== null) {
       return{
-        component: <KegDetails/>,
+        component: <KegDetails keg={this.state.selectedKeg}/>,
         buttonText: "Back to Kegs"
       }
     } else if (this.state.formVisible){
