@@ -18,18 +18,25 @@ Practice of React click handlers and CRUD functionality.
 
 ## Project Specifications
 ### User Stories
-*As an employee at Gaston's Cold Ones, I want to see a list/menu of all available kegs. For each keg, I want to see its name, brand, price and alcoholContent .
-As an employee, I want to submit a form to add a new keg to a list.
-As an employee, I want to be able to click on a keg to see its detail page and view the description and how many kegs are left.
-As a an employee, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
+* As an employee at Gaston's Cold Ones, I want to see a list/menu of all available kegs. For each keg, I want to see its name, brand, price and alcoholContent .
+* As an employee, I want to submit a form to add a new keg to a list.
+* As an employee, I want to be able to click on a keg to see its detail page and view the description and how many kegs are left.
+* As an employee, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
+* As an employee, I want to be able to click a button next to a keg whenever I sell a pint of it. This should decrease the number of pints left by 1. Pints should not be able to go below 0.
+* As an employee I want to by warned when a keg is almost empty
+* As an employee I want to by told when a keg is empty and not be permited to sell any more
+
 ### Behavior Driven Development
+
 |Behavior|Input|Output|
 |---|:---:|:---:|
 |display all kegs|-|*list of kegs*|
 |display form|user clicks add keg|*form for new kegs appears*|
 |user can add new keg to list|user clicks submit on form|*new keg at bottom of menu*|
 |user can see keg details|user clicks on keg|*keg details display with back to menu button at bottom*|
-|user can see keg details|user clicks on keg|*keg details display with back to menu button at bottom*|
+|user can navigate back to menu |user clicks on button on details page|*menu reappears*|
+|user can sell 1 pint buy clicking "order" |user clicks order button on keg|*pint decreases by 1*|
+|user can sell 1 pint buy clicking "order" |user clicks order button on keg|*pint decreases by 1*|
 
 
 ## Setup/Installation Requirements
