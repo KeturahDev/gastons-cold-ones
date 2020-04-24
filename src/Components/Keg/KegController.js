@@ -20,6 +20,14 @@ class KegController extends React.Component{
     }));
   }
 
+  handleAddNewKeg = (newKeg) => {
+    const newKegList = this.state.kegList.concat(newKeg);
+    this.setState({
+      formVisible: false,
+      kegList: newKegList
+    })
+  }
+
   setVisiblitiy = () => {
     if(this.state.selectedKeg !== null) {
       return{
@@ -28,7 +36,7 @@ class KegController extends React.Component{
       }
     } else if (this.state.formVisible){
       return{
-        component: <KegForm/>,
+        component: <KegForm onKegCreation={this.handleAddNewKeg}/>,
         buttonText: "Back to Kegs"
       };
     } else {
