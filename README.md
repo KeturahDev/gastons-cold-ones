@@ -8,7 +8,7 @@ Mock bar selling pints with full CRUD abilitities.
 
 ## Preview
 *component diagram*
-<img width="820" alt="Screen Shot 2020-04-24 at 8 44 54 AM" src="https://user-images.githubusercontent.com/32975967/80231269-fe720600-8607-11ea-841a-7d18f9b93572.png">
+<img width="815" alt="Screen Shot 2020-04-24 at 9 48 04 AM" src="https://user-images.githubusercontent.com/32975967/80236977-cae7a980-8610-11ea-8eff-2098cb79edc7.png">
 
 <!-- **[Deployed Applicatoin](https://keturahdev.github.io/pet-lovers-only/)** -->
 
