@@ -2,6 +2,7 @@ import React from "react";
 import KegList from "./KegList";
 import KegDetails from "./KegDetails";
 import KegForm from "./KegForm";
+import { Kegs } from "./../../PresetData/GasonsKegs";
 
 class KegController extends React.Component{
   constructor(props){
@@ -9,7 +10,7 @@ class KegController extends React.Component{
     this.state={
       formVisible: false,
       selectedKeg: null,
-      // kegList: 
+      kegList: Kegs
     }
   }
 
@@ -32,7 +33,7 @@ class KegController extends React.Component{
       };
     } else {
       return{
-        component: <KegList/>,
+        component: <KegList list={this.state.kegList}/>,
         buttonText: "Add new Keg"
       }
     }

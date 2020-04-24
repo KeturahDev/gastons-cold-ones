@@ -6,7 +6,7 @@ export const Kegs = [
     brand: "Gaston",
     price: "$11",
     alcoholContent: "12%",
-    description: "My specially made whisky to get Belle to losen up and just marry me like I know she should.",
+    description: "My specially made Vodka cocktail to get Belle to losen up and just marry me like I know she should.",
     pints: 124,
     id: v4()
   },
@@ -33,7 +33,7 @@ export const Kegs = [
     brand: "BlueBarrel",
     price: "$6",
     alcoholContent: "5%",
-    description: "A light beer for the ladies to sip on them while I raise there tables.",
+    description: "A light beer for the ladies to sip on while I raise there tables.",
     pints: 124,
     id: v4()
   },
