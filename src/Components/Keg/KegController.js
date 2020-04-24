@@ -74,20 +74,25 @@ class KegController extends React.Component{
         onSelectingKeg={this.handleChangeingSelectedKeg}
         onSellingPint={this.handleSellingPint}
         />,
-        buttonText: "Add new Keg"
+        buttonText: "Add New Keg"
       }
     }
   }
-
-  
-
   render(){
+    const backStyle={
+      backgroundColor: "rgba(22, 22, 22, 0.342)",
+      borderRadius: "10px",
+      padding: "6%"
+    }
     const currentlyVisible = this.setVisiblitiy()
     return(
       <React.Fragment>
-        <div  className="container">
+        <div  className="container" style={backStyle}>
           {currentlyVisible.component}
-          <button className="btn btn-block btn-dark" onClick={this.handleClick}>{currentlyVisible.buttonText}</button>
+          <div className="centerBox">
+            <button className="buttondark" onClick={this.handleClick}>{currentlyVisible.buttonText}</button>
+          </div>
+          {/* <button className="btn btn-block btn-dark" onClick={this.handleClick}>{currentlyVisible.buttonText}</button> */}
         </div>
       </React.Fragment>
     );

@@ -12,7 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p{
+  font-size:17px;
 
+}
 /* Originally in App.css */
 
 .header {
@@ -44,6 +47,42 @@ code {
   border: 1px solid black;
   border-radius: 8px;
   margin-top: 3%;
+  font-size:17px;
+
   /* padding-left: 25%; */
   /* padding-right: 25%; */
+}
+.buttondark {
+  background-color: #000000;
+  color:white;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin-top: 3%;
+  padding:1% 35%;
+  display:inline-block;
+  font-size:17px;
+
+  /* padding-left: 25%; */
+  /* padding-right: 25%; */
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
