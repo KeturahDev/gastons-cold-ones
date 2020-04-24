@@ -1,12 +1,13 @@
 import React from 'react';
-import './App.css';
+import Header from "./Header";
+import KegController from "./Keg/KegController";
 
 function App() {
   return (
     <React.Fragment>
       <div className="App">
-        <header className="App-header">
-        </header>
+          <Header/>
+          <KegController/>
       </div>
     </React.Fragment>
   );
