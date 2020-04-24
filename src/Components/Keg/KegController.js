@@ -13,6 +13,11 @@ class KegController extends React.Component{
     }
   }
 
+  handleClick = () => {
+    this.setState(prevstate => ({
+      formVisible: !prevstate.formVisible
+    }));
+  }
 
   setVisiblitiy = () => {
     if(this.state.selectedKeg !== null) {
@@ -43,7 +48,7 @@ class KegController extends React.Component{
           <KegDetails />
           <KegForm /> */}
           {currentlyVisible.component}
-          <button>{currentlyVisible.buttonText}</button>
+          <button onClick={this.handleClick}>{currentlyVisible.buttonText}</button>
         </div>
       </React.Fragment>
     );
