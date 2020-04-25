@@ -4,17 +4,15 @@
 
 ## Description 
 
-Mock bar selling pints with full CRUD abilitities.
+Mock bar selling pints for Gaston from Beauty and the Beast. Made with the intention of practicing basic state manipulation in React. Inlcudes create and read functionality along with conditional rendering.
+
 
 ## Preview
+***[Deployed Applicatoin](https://keturahdev.github.io/gastons-cold-ones/)***
+<img width="1315" alt="Screen Shot 2020-04-24 at 8 32 25 PM" src="https://user-images.githubusercontent.com/32975967/80270189-dbc50900-866a-11ea-98c3-f5db8ae17d94.png">
+
 *component diagram*
 <img width="815" alt="Screen Shot 2020-04-24 at 9 48 04 AM" src="https://user-images.githubusercontent.com/32975967/80236977-cae7a980-8610-11ea-8eff-2098cb79edc7.png">
-
-<!-- **[Deployed Applicatoin](https://keturahdev.github.io/pet-lovers-only/)** -->
-
-## Description
-
-Practice of React click handlers and CRUD functionality.
 
 ## Project Specifications
 ### User Stories
@@ -71,8 +69,8 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 ## Technologies Used
 
-* Node.js
 * React
+* npm
 * Webpack
 * Javascript
 * HTML & CSS
@@ -82,4 +80,4 @@ _Have a bug or an issue with this application? [Open a new issue](https://github
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-Copyright (c) 2020 **_Keturah Howard
+Copyright (c) 2020 *Keturah Howard*
