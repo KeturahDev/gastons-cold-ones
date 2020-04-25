@@ -26,7 +26,7 @@ p{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(214, 214, 214);
 }
 
 .container {
@@ -43,7 +43,7 @@ p{
 }
 .button {
   background-color: #990d0d;
-  color:white;
+  color:rgb(218, 218, 218);
   border: 1px solid black;
   border-radius: 8px;
   margin-top: 3%;
@@ -54,7 +54,7 @@ p{
 }
 .buttondark {
   background-color: #000000;
-  color:white;
+  color:rgb(219, 219, 219);
   border: 1px solid black;
   border-radius: 8px;
   margin-top: 3%;
@@ -72,7 +72,7 @@ p{
 	border:1px solid #18ab29;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
+	color:#d8d8d8;
 	font-family:Arial;
 	font-size:17px;
 	padding:11px 76px;
