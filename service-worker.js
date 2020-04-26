@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gastons-cold-ones/precache-manifest.0493e027c7f82a66a94bd8ad957909de.js"
+  "/gastons-cold-ones/precache-manifest.83c846466bcfa079b3c2c0484bfb81cd.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gastons-cold-ones/static/css/main.0311d9fe.chunk.css",
-    "main.js": "/gastons-cold-ones/static/js/main.e27d281f.chunk.js",
-    "main.js.map": "/gastons-cold-ones/static/js/main.e27d281f.chunk.js.map",
+    "main.css": "/gastons-cold-ones/static/css/main.610d6651.chunk.css",
+    "main.js": "/gastons-cold-ones/static/js/main.13be5c4c.chunk.js",
+    "main.js.map": "/gastons-cold-ones/static/js/main.13be5c4c.chunk.js.map",
     "runtime-main.js": "/gastons-cold-ones/static/js/runtime-main.3b6cc763.js",
     "runtime-main.js.map": "/gastons-cold-ones/static/js/runtime-main.3b6cc763.js.map",
     "static/js/2.87cec374.chunk.js": "/gastons-cold-ones/static/js/2.87cec374.chunk.js",
     "static/js/2.87cec374.chunk.js.map": "/gastons-cold-ones/static/js/2.87cec374.chunk.js.map",
     "index.html": "/gastons-cold-ones/index.html",
-    "precache-manifest.0493e027c7f82a66a94bd8ad957909de.js": "/gastons-cold-ones/precache-manifest.0493e027c7f82a66a94bd8ad957909de.js",
+    "precache-manifest.83c846466bcfa079b3c2c0484bfb81cd.js": "/gastons-cold-ones/precache-manifest.83c846466bcfa079b3c2c0484bfb81cd.js",
     "service-worker.js": "/gastons-cold-ones/service-worker.js",
-    "static/css/main.0311d9fe.chunk.css.map": "/gastons-cold-ones/static/css/main.0311d9fe.chunk.css.map",
+    "static/css/main.610d6651.chunk.css.map": "/gastons-cold-ones/static/css/main.610d6651.chunk.css.map",
     "static/js/2.87cec374.chunk.js.LICENSE.txt": "/gastons-cold-ones/static/js/2.87cec374.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3b6cc763.js",
     "static/js/2.87cec374.chunk.js",
-    "static/css/main.0311d9fe.chunk.css",
-    "static/js/main.e27d281f.chunk.js"
+    "static/css/main.610d6651.chunk.css",
+    "static/js/main.13be5c4c.chunk.js"
   ]
 }
