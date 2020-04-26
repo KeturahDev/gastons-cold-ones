@@ -28,59 +28,45 @@ p{
   font-size: calc(10px + 2vmin);
   color: rgb(214, 214, 214);
 }
-
+.center{
+  text-align: center;
+}
 .container {
   padding: 3%;
   border: 2px solid #ff030360;
   border-radius: 10px;
-  color: rgb(175, 175, 175)
-  
+  color: rgb(175, 175, 175);
+  /* margin: 1px; */
 }
 .centerBox {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5%;
+  /* padding: 2%; */
+  border: 2px solid #990d0d;
 }
 .button {
   background-color: #990d0d;
   color:rgb(218, 218, 218);
   border: 1px solid black;
   border-radius: 8px;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   font-size:17px;
-
-  /* padding-left: 25%; */
-  /* padding-right: 25%; */
 }
 .buttondark {
   background-color: #000000;
   color:rgb(219, 219, 219);
   border: 1px solid black;
   border-radius: 8px;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   padding:1% 35%;
   display:inline-block;
   font-size:17px;
-
-  /* padding-left: 25%; */
-  /* padding-right: 25%; */
 }
 
-.myButton {
-	background-color:#44c767;
-	border-radius:28px;
-	border:1px solid #18ab29;
-	display:inline-block;
-	cursor:pointer;
-	color:#d8d8d8;
-	font-family:Arial;
-	font-size:17px;
-	padding:11px 76px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #2f6627;
-}
-.myButton:hover {
-	background-color:#5cbf2a;
+.button:hover {
+	background-color:hsla(0, 100%, 50%, 0.733);
 }
 .myButton:active {
 	position:relative;

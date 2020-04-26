@@ -1,14 +1,14 @@
 # Gastons-Cold-Ones
-## By: Ketuah Howard || April 20th 2020
+## By: Ketuah Howard || April 24th 2020
 #### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Description 
 
-Mock bar selling pints for Gaston from Beauty and the Beast. Made with the intention of practicing basic state manipulation in React. Inlcudes create and read functionality along with conditional rendering.
+Mock keg-tracking application for employees at Gaston's taproom (from Beauty and The Beast) to sell pints. Made with the intention of practicing basic state manipulation in React. Inlcudes create and read functionality along with conditional rendering.
 
 
 ## Preview
-***[Deployed Applicatoin](https://keturahdev.github.io/gastons-cold-ones/)***
+***[Deployed Application](https://keturahdev.github.io/gastons-cold-ones/)***
 <img width="1315" alt="Screen Shot 2020-04-24 at 8 32 25 PM" src="https://user-images.githubusercontent.com/32975967/80270189-dbc50900-866a-11ea-98c3-f5db8ae17d94.png">
 
 *component diagram*

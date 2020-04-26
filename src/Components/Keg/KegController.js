@@ -82,7 +82,8 @@ class KegController extends React.Component{
     const backStyle={
       backgroundColor: "rgba(22, 22, 22, 0.342)",
       borderRadius: "10px",
-      padding: "6%"
+      marginBottom: "3%",
+      marginTop: "3%"
     }
     const currentlyVisible = this.setVisiblitiy()
     return(
